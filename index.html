@@ -3,9 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chiranjith Chakma</title>
+    <title>My Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            max-width: 400px;
+            width: 90%;
+        }
+
+        img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid white;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            margin-bottom: 20px;
+            opacity: 0.8;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 25px;
+            text-decoration: none;
+            color: white;
+            border: 1px solid white;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: white;
+            color: #2a5298;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 12px;
+            opacity: 0.7;
+        }
+    </style>
 </head>
+
 <body>
-    
+
+<div class="container">
+    <img src="https://via.placeholder.com/120" alt="Profile">
+
+    <h1>Your Name</h1>
+    <p>Web Developer | Student | Programmer</p>
+
+    <a href="#" class="btn">GitHub</a>
+    <a href="#" class="btn">LinkedIn</a>
+    <a href="#" class="btn">Contact</a>
+
+    <footer>
+        © 2026 Your Name
+    </footer>
+</div>
+
 </body>
 </html>
